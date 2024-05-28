@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34309.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MVC_MSSQL_SignalR", "MVC_MSSQL_SignalR.csproj", "{F2D59724-26FB-44FF-A9E0-8FD43A456207}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataModel", "..\DataModel\DataModel.csproj", "{9BC43B6D-4BB0-4214-A9BE-F2AF154B005F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Manager", "..\Manager\Manager.csproj", "{562082C5-858C-4EBD-87DC-C25FDFDD9886}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubscribeTableDependencies", "..\SubscribeTableDependencies\SubscribeTableDependencies.csproj", "{7D64E05A-232A-4A2D-ADC5-80A2E214E767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hubs", "..\Hubs\Hubs.csproj", "{01E75120-EDAB-44B0-A045-EC3957AF095F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISubscribeTableDependency", "..\ISubscribeTableDependency\ISubscribeTableDependency.csproj", "{38E6447E-7F19-4B00-9F09-988C527FCBC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F2D59724-26FB-44FF-A9E0-8FD43A456207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2D59724-26FB-44FF-A9E0-8FD43A456207}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2D59724-26FB-44FF-A9E0-8FD43A456207}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2D59724-26FB-44FF-A9E0-8FD43A456207}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BC43B6D-4BB0-4214-A9BE-F2AF154B005F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BC43B6D-4BB0-4214-A9BE-F2AF154B005F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BC43B6D-4BB0-4214-A9BE-F2AF154B005F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BC43B6D-4BB0-4214-A9BE-F2AF154B005F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{562082C5-858C-4EBD-87DC-C25FDFDD9886}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{562082C5-858C-4EBD-87DC-C25FDFDD9886}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{562082C5-858C-4EBD-87DC-C25FDFDD9886}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{562082C5-858C-4EBD-87DC-C25FDFDD9886}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D64E05A-232A-4A2D-ADC5-80A2E214E767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D64E05A-232A-4A2D-ADC5-80A2E214E767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D64E05A-232A-4A2D-ADC5-80A2E214E767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D64E05A-232A-4A2D-ADC5-80A2E214E767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E75120-EDAB-44B0-A045-EC3957AF095F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E75120-EDAB-44B0-A045-EC3957AF095F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E75120-EDAB-44B0-A045-EC3957AF095F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E75120-EDAB-44B0-A045-EC3957AF095F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E6447E-7F19-4B00-9F09-988C527FCBC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E6447E-7F19-4B00-9F09-988C527FCBC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E6447E-7F19-4B00-9F09-988C527FCBC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E6447E-7F19-4B00-9F09-988C527FCBC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F0FCD61-23DE-44E9-AE73-E9C9369C917E}
+	EndGlobalSection
+EndGlobal
